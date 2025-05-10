@@ -1,0 +1,65 @@
+/* Reset & Base */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #101820;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background: #FFD700;
+  color: #101820;
+  text-align: center;
+  padding: 4em 2em;
+}
+.hero .cta {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.7em 1.5em;
+  background: #101820;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* About Section */
+.about, .features {
+  background: white;
+  margin: 2em auto;
+  padding: 2em;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #101820;
+  color: white;
+}
